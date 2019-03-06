@@ -1,0 +1,67 @@
+/*!
+ * Start Bootstrap - 2 Col Portfolio (https://startbootstrap.com/template-overviews/2-col-portfolio)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-2-col-portfolio/blob/master/LICENSE)
+ */
+
+ @font-face {
+  font-family: 'GFS Didot';
+  src: url('../font/GFSDidot-Regular.ttf') format('truetype');
+}
+
+body {
+  padding-top: 54px;
+  font-family: 'GFS Didot', serif;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.pagination {
+  margin-bottom: 30px;
+}
+
+#sortable > div { float: left; }
+
+#sortable {
+  list-style-type: none;
+  display: block;
+}
+#sortable >li {
+  float: left; 
+}
+img {
+  border-radius: 25px;
+}
+
+
+/* index2.html */
+.alx_droppable { 
+  width: 200px; 
+  height: 150px; 
+  padding: 0.5em; 
+  float: left; 
+  margin: 10px; 
+  background-color: yellow;
+  font-size: 150%;
+}
+
+.alx_droppablespan { display: none;}
+
+.alx_draggable  {
+  width: 170px; 
+  height: 120px; 
+  line-height: 120px;
+  text-align: center;
+  border-radius: 25px;
+  vertical-align: middle;
+  font-size: 100%;
+  margin: 10px; 
+}

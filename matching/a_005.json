@@ -1,0 +1,51 @@
+{
+    "metadata" : {
+                    "title" : "Αντιστοίχιση σχημάτων - Πριν τη ζωγραφική του χαρταετού",
+                    "class" : "Α",
+                    "answer" : "13420"
+                },
+    "draggables" : {
+                    "draggable0" : {
+                                        "id" : "0", 
+                                        "img_src" : "matching/a_005/romvos.png"
+                                    },
+                    "draggable1" : {
+                                        "id" : "1", 
+                                        "img_src" : "matching/a_005/oval.png"
+                                    },
+                    "draggable2" : {
+                                        "id" : "2", 
+                                        "img_src" : "matching/a_005/orthogwnio.png"
+                                    },
+                    "draggable3" : {
+                                        "id" : "3", 
+                                        "img_src" : "matching/a_005/kardia.png"
+                                    },
+                    "draggable4" : {
+                                        "id" : "4", 
+                                        "img_src" : "matching/a_005/asteri.png"
+                                    }
+                    },
+    "droppables" : {
+                    "droppable0" : {
+                                        "id" : "0", 
+                                        "text" : "Οβάλ"
+                                    },
+                    "droppable1" : {
+                                        "id" : "1", 
+                                        "text" : "Καρδιά"
+                                    },
+                    "droppable2" : {
+                                        "id" : "2", 
+                                        "text" : "Αστέρι"
+                                    },
+                    "droppable3" : {
+                                        "id" : "3", 
+                                        "text" : "Ορθογώνιο"
+                                    },
+                    "droppable4" : {
+                                        "id" : "4", 
+                                        "text" : "Ρόμβος"
+                                    }
+                    }
+}

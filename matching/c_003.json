@@ -1,0 +1,51 @@
+{
+    "metadata" : {
+                    "title" : "Αντιστοίχιση επεκτάσεων με τύπους αρχείων.",
+                    "class" : "Γ",
+                    "answer" : "24013"
+                },
+    "draggables" : {
+                    "draggable0" : {
+                                        "id" : "0", 
+                                        "img_src" : "matching/c_003/avi.png"
+                                    },
+                    "draggable1" : {
+                                        "id" : "1", 
+                                        "img_src" : "matching/c_003/html.png"
+                                    },
+                    "draggable2" : {
+                                        "id" : "2", 
+                                        "img_src" : "matching/c_003/jpg.png"
+                                    },
+                    "draggable3" : {
+                                        "id" : "3", 
+                                        "img_src" : "matching/c_003/mp3.png"
+                                    },
+                    "draggable4" : {
+                                        "id" : "4", 
+                                        "img_src" : "matching/c_003/odt.png"
+                                    }
+                    },
+    "droppables" : {
+                    "droppable0" : {
+                                        "id" : "0", 
+                                        "text" : "Φωτογραφία ή ζωγραφιά"
+                                    },
+                    "droppable1" : {
+                                        "id" : "1", 
+                                        "text" : "Κείμενο"
+                                    },
+                    "droppable2" : {
+                                        "id" : "2", 
+                                        "text" : "Βίντεο ή ταινία"
+                                    },
+                    "droppable3" : {
+                                        "id" : "3", 
+                                        "text" : "Ιστοσελίδα"
+                                    },
+                    "droppable4" : {
+                                        "id" : "4", 
+                                        "text" : "Μουσική"
+                                    }
+                    }
+}

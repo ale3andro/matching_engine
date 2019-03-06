@@ -1,0 +1,51 @@
+{
+    "metadata" : {
+                    "title" : "Σκάκι - Αντιστοίχιση κομματιών με τα ονόματα τους",
+                    "class" : "Α",
+                    "answer" : "24130"
+                },
+    "draggables" : {
+                    "draggable0" : {
+                                        "id" : "0", 
+                                        "img_src" : "matching/a_003/Μαύρο-άλογο.png"
+                                    },
+                    "draggable1" : {
+                                        "id" : "1", 
+                                        "img_src" : "matching/a_003/Μαύρο-αξιωματικός.png"
+                                    },
+                    "draggable2" : {
+                                        "id" : "2", 
+                                        "img_src" : "matching/a_003/Μαύρο-βασιλιάς.png"
+                                    },
+                    "draggable3" : {
+                                        "id" : "3", 
+                                        "img_src" : "matching/a_003/Μαύρο-βασίλισσα.png"
+                                    },
+                    "draggable4" : {
+                                        "id" : "4", 
+                                        "img_src" : "matching/a_003/Μαύρο-πύργος.png"
+                                    }
+                    },
+    "droppables" : {
+                    "droppable0" : {
+                                        "id" : "0", 
+                                        "text" : "Βασιλιάς"
+                                    },
+                    "droppable1" : {
+                                        "id" : "1", 
+                                        "text" : "Πύργος"
+                                    },
+                    "droppable2" : {
+                                        "id" : "2", 
+                                        "text" : "Αξιωματικός"
+                                    },
+                    "droppable3" : {
+                                        "id" : "3", 
+                                        "text" : "Βασίλισσα"
+                                    },
+                    "droppable4" : {
+                                        "id" : "4", 
+                                        "text" : "Άλογο"
+                                    }
+                    }
+}

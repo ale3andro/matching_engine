@@ -1,0 +1,51 @@
+{
+    "metadata" : {
+                    "title" : "Περισσότερες επεκτάσεις αρχείων.<br />Άνοιξε <a href=\"http://sxoleio.pw/3.%CE%94_%CF%84%CE%AC%CE%BE%CE%B7/07.%CE%95%CF%80%CE%B5%CE%BA%CF%84%CE%AC%CF%83%CE%B5%CE%B9%CF%82_%CE%B1%CF%81%CF%87%CE%B5%CE%AF%CF%89%CE%BD_%CE%BA%CE%B1%CE%B9_%CE%BB%CE%BF%CE%B3%CE%B9%CF%83%CE%BC%CE%B9%CE%BA%CE%AC/files/03_%CE%A0%CE%B5%CF%81%CE%B9%CF%83%CF%83%CF%8C%CF%84%CE%B5%CF%81%CE%B5%CF%82_%CE%B5%CF%80%CE%B5%CE%BA%CF%84%CE%AC%CF%83%CE%B5%CE%B9%CF%82_%CE%B1%CF%81%CF%87%CE%B5%CE%AF%CF%89%CE%BD.pdf\" target=\"_blank\">αυτό</a> το αρχείο, μελέτησε το και κάνε τις σωστές αντιστοιχίσεις",
+                    "class" : "Δ",
+                    "answer" : "23140"
+                },
+    "draggables" : {
+                    "draggable0" : {
+                                        "id" : "0", 
+                                        "img_src" : "matching/d_001/mkv.png"
+                                    },
+                    "draggable1" : {
+                                        "id" : "1", 
+                                        "img_src" : "matching/d_001/docx.png"
+                                    },
+                    "draggable2" : {
+                                        "id" : "2", 
+                                        "img_src" : "matching/d_001/srt.png"
+                                    },
+                    "draggable3" : {
+                                        "id" : "3", 
+                                        "img_src" : "matching/d_001/zip.png"
+                                    },
+                    "draggable4" : {
+                                        "id" : "4", 
+                                        "img_src" : "matching/d_001/pdf.png"
+                                    }
+                    },
+    "droppables" : {
+                    "droppable0" : {
+                                        "id" : "0", 
+                                        "text" : "Υπότιτλοι για ταινία"
+                                    },
+                    "droppable1" : {
+                                        "id" : "1", 
+                                        "text" : "Συμπιεσμένο αρχείο"
+                                    },
+                    "droppable2" : {
+                                        "id" : "2", 
+                                        "text" : "Αρχείο κειμένου"
+                                    },
+                    "droppable3" : {
+                                        "id" : "3", 
+                                        "text" : "Κείμενο που δεν αλλάζει"
+                                    },
+                    "droppable4" : {
+                                        "id" : "4", 
+                                        "text" : "Βίντεο υψηλής ποιτότητας"
+                                    }
+                    }
+}
