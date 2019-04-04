@@ -1,0 +1,51 @@
+{
+    "metadata" : {
+                    "title" : "Ολόκληρες και μισές ώρες - Μέρος 1",
+                    "class" : "Α",
+                    "answer" : "13420"
+                },
+    "draggables" : {
+                    "draggable0" : {
+                                        "id" : "0", 
+                                        "img_src" : "matching/a_006/t04.00.png"
+                                    },
+                    "draggable1" : {
+                                        "id" : "1", 
+                                        "img_src" : "matching/a_006/t02.00.png"
+                                    },
+                    "draggable2" : {
+                                        "id" : "2", 
+                                        "img_src" : "matching/a_006/t03.30.png"
+                                    },
+                    "draggable3" : {
+                                        "id" : "3", 
+                                        "img_src" : "matching/a_006/t02.30.png"
+                                    },
+                    "draggable4" : {
+                                        "id" : "4", 
+                                        "img_src" : "matching/a_006/t03.00.png"
+                                    }
+                    },
+    "droppables" : {
+                    "droppable0" : {
+                                        "id" : "0", 
+                                        "text" : "Δύο ακριβώς"
+                                    },
+                    "droppable1" : {
+                                        "id" : "1", 
+                                        "text" : "Δύο και μισή"
+                                    },
+                    "droppable2" : {
+                                        "id" : "2", 
+                                        "text" : "Τρεις ακριβώς"
+                                    },
+                    "droppable3" : {
+                                        "id" : "3", 
+                                        "text" : "Τρεις και μισή"
+                                    },
+                    "droppable4" : {
+                                        "id" : "4", 
+                                        "text" : "Τέσσερις ακριβώς"
+                                    }
+                    }
+}
