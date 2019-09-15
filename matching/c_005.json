@@ -1,0 +1,51 @@
+{
+    "metadata" : {
+                    "title" : "Αντιστοίχιση εικονιδίων με τύπο αρχείου",
+                    "class" : "Γ",
+                    "answer" : "30412"
+                },
+    "draggables" : {
+                    "draggable0" : {
+                                        "id" : "0", 
+                                        "img_src" : "matching/c_005/fotografia.png"
+                                    },
+                    "draggable1" : {
+                                        "id" : "1", 
+                                        "img_src" : "matching/c_005/istoselida.png"
+                                    },
+                    "draggable2" : {
+                                        "id" : "2", 
+                                        "img_src" : "matching/c_005/keimeno.png"
+                                    },
+                    "draggable3" : {
+                                        "id" : "3", 
+                                        "img_src" : "matching/c_005/mousikh.png"
+                                    },
+                    "draggable4" : {
+                                        "id" : "4", 
+                                        "img_src" : "matching/c_005/video.png"
+                                    }
+                    },
+    "droppables" : {
+                    "droppable0" : {
+                                        "id" : "0", 
+                                        "text" : "Μουσική"
+                                    },
+                    "droppable1" : {
+                                        "id" : "1", 
+                                        "text" : "Φωτογραφία - Ζωγραφιά"
+                                    },
+                    "droppable2" : {
+                                        "id" : "2", 
+                                        "text" : "Βίντεο"
+                                    },
+                    "droppable3" : {
+                                        "id" : "3", 
+                                        "text" : "Ιστοσελίδα"
+                                    },
+                    "droppable4" : {
+                                        "id" : "4", 
+                                        "text" : "Κείμενο"
+                                    }
+                    }
+}
