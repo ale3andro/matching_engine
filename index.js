@@ -103,7 +103,6 @@ function setup_matching() {
 }
 
 $( function() {
-
     if (!('id' in getUrlParams())) {
         if (debugging) { console.log("TODO Δεν ορίστηκε το id του quiz - Πρέπει να τερματιστεί η εφαρμογή"); }
         $.ajax(
