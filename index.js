@@ -106,11 +106,33 @@ $( function() {
 
     if (!('id' in getUrlParams())) {
         if (debugging) { console.log("TODO Δεν ορίστηκε το id του quiz - Πρέπει να τερματιστεί η εφαρμογή"); }
-        alert('Δεν ορίστηκε id');
+        $.ajax(
+            {   url: "matching/all_activities",
+                success: function(result) {
+                    $('#alx_title').html('Διαθέσιμες δραστηριότητες');
+                    $('#alx_contents').html('<ul>');
+                    console.log('success');
+                    console.log(result);
+                    var alldata = result.split('\n');
+                    for (var i=0; i<alldata.length; i+=2) {
+                        if (alldata[i]!='') {
+                            var ttitle = alldata[i+1].substring(1, alldata[i+1].length-1);
+                            var newLinePosition = ttitle.search('<br />');
+                            if (newLinePosition!=-1)
+                                ttitle=ttitle.substring(0, newLinePosition);
+                            $('#alx_contents').html($('#alx_contents').html() + "<li><a href='?id=" + alldata[i].substring(0, alldata[i].length-5) + "'>" + ttitle + "</a></li>");
+                        }
+                    }
+                    $('#alx_contents').html($('#alx_contents').html() + '</ul>');
+                    $('#alx_draggables').html('');
+                },
+                error: function(result) {
+                    console.log('failure');
+                } 
+            });
         return; 
     }
     
-
     if (get_data_from_server()<0) {
         if (debugging) { console.log("Σφάλμα στην ανάγνωση του json");}
         return;

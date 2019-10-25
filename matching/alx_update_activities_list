@@ -1,0 +1,7 @@
+#!/bin/bash
+rm all_activities
+for i in `ls *.json`; 
+	do echo $i >> all_activities;
+	cat $i | jq '.metadata.title'>> all_activities
+	done;
+
