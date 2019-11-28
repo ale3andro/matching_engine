@@ -12,7 +12,7 @@
 * jquery
 * jquery-ui
 
-Προτείνεται η εγκατάσταση μέσω [bower.io](https://bower.io/) 
+Προτείνεται η εγκατάσταση μέσω [bower.io](https://bower.io/) δίπλα από τον φάκελο της εφαρμογής (ένα επίπεδο παραπάνω) σε νέο φάκελο με όνομα **bower_dependencies**
 
 # Screenshots
 ![screenshot0](screenshot0.png  "screenshot0")
