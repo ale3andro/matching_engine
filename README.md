@@ -8,12 +8,13 @@
 **Προσοχή**: Δεν περιλαμβάνει τα παρακάτω dependencies.
 
 # Dependencies
-bootstrap4
-jquery
-jquer-ui
+* bootstrap4
+* jquery
+* jquery-ui
+
 Προτείνεται η εγκατάσταση μέσω [bower.io](https://bower.io/) 
 
 # Screenshots
 ![screenshot0](screenshot0.png  "screenshot0")
 
-![screenshot1](screenshot1.png  "screenshot1")**
+![screenshot1](screenshot1.png  "screenshot1")
