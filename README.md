@@ -8,11 +8,9 @@
 **Προσοχή**: Δεν περιλαμβάνει τα παρακάτω dependencies.
 
 # Dependencies
-* bootstrap4
-* jquery
-* jquery-ui
 
-Προτείνεται η εγκατάσταση μέσω [bower.io](https://bower.io/) δίπλα από τον φάκελο της εφαρμογής (ένα επίπεδο παραπάνω) σε νέο φάκελο με όνομα **bower_dependencies**
+Προτείνεται η εγκατάσταση μέσω [yarn](https://yarnpkg.com/en/) 
+**yarn install**
 
 # Screenshots
 ![screenshot0](screenshot0.png  "screenshot0")
