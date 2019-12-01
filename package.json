@@ -1,0 +1,15 @@
+{
+  "name": "matching_engine",
+  "version": "1.0.0",
+  "description": "Matching engine",
+  "main": "index.html",
+  "repository": "git@github.com:ale3andro/matching_engine.git",
+  "author": "ale3andro <ale3andro@gmail.com>",
+  "license": "GNU",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "jquery-ui-dist": "^1.12.1",
+    "popper.js": "^1.16.0"
+  }
+}
