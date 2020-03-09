@@ -23,6 +23,9 @@ function getUrlParams( prop ) {
 }
 
 function get_data_from_server(){
+    if (getUrlParams('questId')!=undefined) {
+        sessionStorage.setItem(getUrlParams('questId'), '0');
+    }
     if (getUrlParams('id')==undefined) {
         if (debugging)
             console.log("TODO - Δεν υπάρχει τεστ με αυτό το id - Να τερματιστεί η εφαρμογή");
@@ -158,6 +161,7 @@ $( function() {
             $("#alx_draggables").html('<img src="img/happy_winner.gif" />');
             $("#alx_droppables").html("");
             $("#alx_button").html("");
+            sessionStorage.setItem(getUrlParams('questId'), '1');
         }
         else
             alert('Δυστυχώς όχι... Δοκίμασε πάλι!');
