@@ -1,0 +1,51 @@
+{
+    "metadata" : {
+                    "title" : "Βάλε στη σειρά τις οδηγίες για το πλύσιμο των δοντιών",
+                    "class" : "Α",
+                    "answer" : "23041"
+                },
+    "draggables" : {
+                    "draggable0" : {
+                                        "id" : "0", 
+                                        "img_src" : "matching/a_014/2-open-mouth.png"
+                                    },
+                    "draggable1" : {
+                                        "id" : "1", 
+                                        "img_src" : "matching/a_014/4-rinse-with-water.png"
+                                    },
+                    "draggable2" : {
+                                        "id" : "2", 
+                                        "img_src" : "matching/a_014/0-open-toothpaste.png"
+                                    },
+                    "draggable3" : {
+                                        "id" : "3", 
+                                        "img_src" : "matching/a_014/1-put-some-on-the-toothbrush.png"
+                                    },
+                    "draggable4" : {
+                                        "id" : "4", 
+                                        "img_src" : "matching/a_014/3-brush-teeth.png"
+                                    }
+                    },
+    "droppables" : {
+                    "droppable0" : {
+                                        "id" : "0", 
+                                        "text" : "1"
+                                    },
+                    "droppable1" : {
+                                        "id" : "1", 
+                                        "text" : "2"
+                                    },
+                    "droppable2" : {
+                                        "id" : "2", 
+                                        "text" : "3"
+                                    },
+                    "droppable3" : {
+                                        "id" : "3", 
+                                        "text" : "4"
+                                    },
+                    "droppable4" : {
+                                        "id" : "4", 
+                                        "text" : "5"
+                                    }
+                    }
+}
