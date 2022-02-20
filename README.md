@@ -1,18 +1,3 @@
-# matching_engine
-Μια εφαρμογή που επιτρέπει τη δημιουργία ασκήσεων αντιστοίχισης.
+# matching_engine_fuzz
 
-Στην πάνω σειρά υπάρχουν μια σειρά από εικόνες που μπορούν να μετακινηθούν με το ποντίκι (draggable) και στην κάτω σειρά υπάρχουν μια σειρά από κίτρινα ορθογώνια μέσα στα οποία υπάρχει μια λεκτική περιγραφή (droppable). Οι μαθητές καλόύνται να κάνουν τις σωστές αντιστοιχίσεις (εικόνες με τις περιγραφές τους).
-
-Η εφαρμογή είναι γραμμένη σε javascript, μπορεί να εγκατασταθεί σε ένα server ή και ακόμη τοπικά σε έναν υπολογιστή.
-
-**Προσοχή**: Δεν περιλαμβάνει τα παρακάτω dependencies.
-
-# Dependencies
-
-Προτείνεται η εγκατάσταση μέσω [yarn](https://yarnpkg.com/en/) 
-**yarn install**
-
-# Screenshots
-![screenshot0](screenshot0.png  "screenshot0")
-
-![screenshot1](screenshot1.png  "screenshot1")
+Μια παραλλαγή του [matching engine](https://github.com/ale3andro/matching_engine) ώστε να υποστηρίζει τις unplugged δραστηριότητες της οικογένειας Fuzz από το Hour of Code

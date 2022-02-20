@@ -1,9 +1,9 @@
 {
     "metadata" : {
-                    "title" : "Fuzz - 03",
+                    "title" : "Fuzz - 01",
                     "class" : "Α",
-                    "answer" : "right|up|right|down|right|down|right",
-                    "level_img" : "matching/levels/level_a3.png"
+                    "answer" : "right|up|right|up|right",
+                    "level_img" : "matching/levels/level_a1.png"
                 },
     "draggables" : {
                     "draggable0" : {
@@ -19,20 +19,12 @@
                                         "img_src" : "matching/arrows/right.png"
                                     },
                     "draggable3" : {
-                                        "id" : "right3", 
-                                        "img_src" : "matching/arrows/right.png"
+                                        "id" : "up0", 
+                                        "img_src" : "matching/arrows/up.png"
                                     },
                     "draggable4" : {
                                         "id" : "up1", 
                                         "img_src" : "matching/arrows/up.png"
-                                    },
-                    "draggable5" : {
-                                        "id" : "down1", 
-                                        "img_src" : "matching/arrows/down.png"
-                                    },
-                    "draggable6" : {
-                                        "id" : "down2", 
-                                        "img_src" : "matching/arrows/down.png"
                                     }
                     },
     "droppables" : {
@@ -55,15 +47,6 @@
                     "droppable4" : {
                                         "id" : "4", 
                                         "text" : "5"
-                                    },
-                    "droppable5" : {
-                                        "id" : "5", 
-                                        "text" : "6"
-                                    },
-                    "droppable6" : {
-                                        "id" : "6", 
-                                        "text" : "7"
                                     }
-
                     }
 }

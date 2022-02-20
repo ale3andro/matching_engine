@@ -1,51 +1,69 @@
 {
     "metadata" : {
-                    "title" : "Ολόκληρες ώρες",
+                    "title" : "Fuzz - 08",
                     "class" : "Α",
-                    "answer" : "42103"
+                    "answer" : "right|down|right|down|right|up|right",
+                    "level_img" : "matching/levels/level_a8.png"
                 },
     "draggables" : {
                     "draggable0" : {
-                                        "id" : "0", 
-                                        "img_src" : "matching/a_008/t10.00.png"
+                                        "id" : "right0", 
+                                        "img_src" : "matching/arrows/right.png"
                                     },
                     "draggable1" : {
-                                        "id" : "1", 
-                                        "img_src" : "matching/a_008/t08.00.png"
+                                        "id" : "right1", 
+                                        "img_src" : "matching/arrows/right.png"
                                     },
                     "draggable2" : {
-                                        "id" : "2", 
-                                        "img_src" : "matching/a_008/t02.00.png"
+                                        "id" : "right2", 
+                                        "img_src" : "matching/arrows/right.png"
                                     },
                     "draggable3" : {
-                                        "id" : "3", 
-                                        "img_src" : "matching/a_008/t12.00.png"
+                                        "id" : "right3", 
+                                        "img_src" : "matching/arrows/right.png"
                                     },
                     "draggable4" : {
-                                        "id" : "4", 
-                                        "img_src" : "matching/a_008/t01.00.png"
+                                        "id" : "up0", 
+                                        "img_src" : "matching/arrows/up.png"
+                                    },
+                    "draggable5" : {
+                                        "id" : "down0", 
+                                        "img_src" : "matching/arrows/down.png"
+                                    },
+                    "draggable6" : {
+                                        "id" : "down1", 
+                                        "img_src" : "matching/arrows/down.png"
                                     }
                     },
     "droppables" : {
                     "droppable0" : {
                                         "id" : "0", 
-                                        "text" : "Μία ακριβώς"
+                                        "text" : "1"
                                     },
                     "droppable1" : {
                                         "id" : "1", 
-                                        "text" : "Δύο ακριβώς"
+                                        "text" : "2"
                                     },
                     "droppable2" : {
                                         "id" : "2", 
-                                        "text" : "Οκτώ ακριβώς"
+                                        "text" : "3"
                                     },
                     "droppable3" : {
                                         "id" : "3", 
-                                        "text" : "Δέκα ακριβώς"
+                                        "text" : "4"
                                     },
                     "droppable4" : {
                                         "id" : "4", 
-                                        "text" : "Δώδεκα ακριβώς"
+                                        "text" : "5"
+                                    },
+                    "droppable5" : {
+                                        "id" : "5", 
+                                        "text" : "6"
+                                    },
+                    "droppable6" : {
+                                        "id" : "6", 
+                                        "text" : "7"
                                     }
+
                     }
 }

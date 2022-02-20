@@ -1,51 +1,69 @@
 {
     "metadata" : {
-                    "title" : "Αντιστοίχιση σχημάτων - Πριν τη ζωγραφική του χαρταετού",
+                    "title" : "Fuzz - 05",
                     "class" : "Α",
-                    "answer" : "13420"
+                    "answer" : "right|down|left|down|right|up|right",
+                    "level_img" : "matching/levels/level_a5.png"
                 },
     "draggables" : {
                     "draggable0" : {
-                                        "id" : "0", 
-                                        "img_src" : "matching/a_005/romvos.png"
+                                        "id" : "right0", 
+                                        "img_src" : "matching/arrows/right.png"
                                     },
                     "draggable1" : {
-                                        "id" : "1", 
-                                        "img_src" : "matching/a_005/oval.png"
+                                        "id" : "right1", 
+                                        "img_src" : "matching/arrows/right.png"
                                     },
                     "draggable2" : {
-                                        "id" : "2", 
-                                        "img_src" : "matching/a_005/orthogwnio.png"
+                                        "id" : "right2", 
+                                        "img_src" : "matching/arrows/right.png"
                                     },
                     "draggable3" : {
-                                        "id" : "3", 
-                                        "img_src" : "matching/a_005/kardia.png"
+                                        "id" : "left0", 
+                                        "img_src" : "matching/arrows/left.png"
                                     },
                     "draggable4" : {
-                                        "id" : "4", 
-                                        "img_src" : "matching/a_005/asteri.png"
+                                        "id" : "up0", 
+                                        "img_src" : "matching/arrows/up.png"
+                                    },
+                    "draggable5" : {
+                                        "id" : "down0", 
+                                        "img_src" : "matching/arrows/down.png"
+                                    },
+                    "draggable6" : {
+                                        "id" : "down1", 
+                                        "img_src" : "matching/arrows/down.png"
                                     }
                     },
     "droppables" : {
                     "droppable0" : {
                                         "id" : "0", 
-                                        "text" : "Οβάλ"
+                                        "text" : "1"
                                     },
                     "droppable1" : {
                                         "id" : "1", 
-                                        "text" : "Καρδιά"
+                                        "text" : "2"
                                     },
                     "droppable2" : {
                                         "id" : "2", 
-                                        "text" : "Αστέρι"
+                                        "text" : "3"
                                     },
                     "droppable3" : {
                                         "id" : "3", 
-                                        "text" : "Ορθογώνιο"
+                                        "text" : "4"
                                     },
                     "droppable4" : {
                                         "id" : "4", 
-                                        "text" : "Ρόμβος"
+                                        "text" : "5"
+                                    },
+                    "droppable5" : {
+                                        "id" : "5", 
+                                        "text" : "6"
+                                    },
+                    "droppable6" : {
+                                        "id" : "6", 
+                                        "text" : "7"
                                     }
+
                     }
 }

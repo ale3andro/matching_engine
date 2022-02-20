@@ -1,51 +1,69 @@
 {
     "metadata" : {
-                    "title" : "Ολόκληρες και μισές ώρες - Μέρος 2",
+                    "title" : "Fuzz - 07",
                     "class" : "Α",
-                    "answer" : "20413"
+                    "answer" : "right|down|right|up|left|up|right",
+                    "level_img" : "matching/levels/level_a7.png"
                 },
     "draggables" : {
                     "draggable0" : {
-                                        "id" : "0", 
-                                        "img_src" : "matching/a_007/t11.00.png"
+                                        "id" : "right0", 
+                                        "img_src" : "matching/arrows/right.png"
                                     },
                     "draggable1" : {
-                                        "id" : "1", 
-                                        "img_src" : "matching/a_007/t12.00.png"
+                                        "id" : "right1", 
+                                        "img_src" : "matching/arrows/right.png"
                                     },
                     "draggable2" : {
-                                        "id" : "2", 
-                                        "img_src" : "matching/a_007/t01.00.png"
+                                        "id" : "right2", 
+                                        "img_src" : "matching/arrows/right.png"
                                     },
                     "draggable3" : {
-                                        "id" : "3", 
-                                        "img_src" : "matching/a_007/t12.30.png"
+                                        "id" : "left0", 
+                                        "img_src" : "matching/arrows/left.png"
                                     },
                     "draggable4" : {
-                                        "id" : "4", 
-                                        "img_src" : "matching/a_007/t11.30.png"
+                                        "id" : "up0", 
+                                        "img_src" : "matching/arrows/up.png"
+                                    },
+                    "draggable5" : {
+                                        "id" : "up1", 
+                                        "img_src" : "matching/arrows/up.png"
+                                    },
+                    "draggable6" : {
+                                        "id" : "down0", 
+                                        "img_src" : "matching/arrows/down.png"
                                     }
                     },
     "droppables" : {
                     "droppable0" : {
                                         "id" : "0", 
-                                        "text" : "Μία ακριβώς"
+                                        "text" : "1"
                                     },
                     "droppable1" : {
                                         "id" : "1", 
-                                        "text" : "Έντεκα ακριβώς"
+                                        "text" : "2"
                                     },
                     "droppable2" : {
                                         "id" : "2", 
-                                        "text" : "Έντεκα και μισή"
+                                        "text" : "3"
                                     },
                     "droppable3" : {
                                         "id" : "3", 
-                                        "text" : "Δώδεκα ακριβώς"
+                                        "text" : "4"
                                     },
                     "droppable4" : {
                                         "id" : "4", 
-                                        "text" : "Δώδεκα και μισή"
+                                        "text" : "5"
+                                    },
+                    "droppable5" : {
+                                        "id" : "5", 
+                                        "text" : "6"
+                                    },
+                    "droppable6" : {
+                                        "id" : "6", 
+                                        "text" : "7"
                                     }
+
                     }
 }

@@ -69,8 +69,14 @@ $( document ).ready(function() {
                         
                 metadata[0] = data['metadata']['title'];
                 $("#alx_title").html(metadata[0]);
+                
                 metadata[1] = data['metadata']['class'];
                 metadata[2] = data['metadata']['answer'];
+                metadata[3] = data['metadata']['level_img'];
+                
+                level_img_tag = "<img src='" + metadata[3] + "'>";
+                $('#alx_level_image').html(level_img_tag);
+
                 $.each(data['draggables'], function(index, value) {
                     draggables[draggables_count] = value;
                     draggables_count++;  
@@ -85,7 +91,7 @@ $( document ).ready(function() {
                     alert("Fatal error #001");
                     return -1;
                 }
-                if (draggables_count>5) {
+                if (draggables_count>15) {
                     if (debugging) { console.log("Δεν μπορείς να έχεις περισσότερα από 5 στοιχεία σε κάθε άσκηση αντιστοίχισης"); }
                     alert("Fatal error #002");
                     return -2;
@@ -114,14 +120,16 @@ $( document ).ready(function() {
                 $("#alx_button").html('<input type="button" id="alxtest" class="btn btn-primary" value="Έλεγχος">');
                 $("#alxtest").click(function() {
                     user_thinks = "";
-                    for (var i=0; i<droppables.length; i++) { 
-                        user_thinks = user_thinks + $("#droppable" + droppables[i]['id']+ "span").text();
+                    for (var i=0; i<droppables.length; i++) {
+                        user_thinks = user_thinks + '|' + $("#droppable" + droppables[i]['id']+ "span").text().slice(0,-1);
                     }
+                    user_thinks = user_thinks.substring(1);
                     console.log('User thinks: ' + user_thinks);
                     console.log('Correct answer: ' + metadata[2]);
                     if (user_thinks==metadata[2]) 
                     {
                         $("#alx_draggables").html('<img src="img/happy_winner.gif" />');
+                        $('#alx_level_image').html('');
                         $("#alx_droppables").html("");
                         $("#alx_button").html("");
                         
