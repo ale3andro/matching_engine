@@ -1,0 +1,51 @@
+{
+    "metadata" : {
+                    "title" : "Σήματα Ι",
+                    "class" : "Α",
+                    "answer" : "43102"
+                },
+    "draggables" : {
+                    "draggable0" : {
+                                        "id" : "0", 
+                                        "img_src" : "matching/a_010/ap_08.png"
+                                    },
+                    "draggable1" : {
+                                        "id" : "1", 
+                                        "img_src" : "matching/a_010/ap_10.png"
+                                    },
+                    "draggable2" : {
+                                        "id" : "2", 
+                                        "img_src" : "matching/a_010/p_20.png"
+                                    },
+                    "draggable3" : {
+                                        "id" : "3", 
+                                        "img_src" : "matching/a_010/pl_08.png"
+                                    },
+                    "draggable4" : {
+                                        "id" : "4", 
+                                        "img_src" : "matching/a_010/pl_11.png"
+                                    }
+                    },
+    "droppables" : {
+                    "droppable0" : {
+                                        "id" : "0", 
+                                        "text" : "Πεζόδρομος"
+                                    },
+                    "droppable1" : {
+                                        "id" : "1", 
+                                        "text" : "Αδιέξοδο"
+                                    },
+                    "droppable2" : {
+                                        "id" : "2", 
+                                        "text" : "Απαγορεύεται η κόρνα"
+                                    },
+                    "droppable3" : {
+                                        "id" : "3", 
+                                        "text" : "Απαγορεύονται αυτοκίνητα και μηχανάκια"
+                                    },
+                    "droppable4" : {
+                                        "id" : "4", 
+                                        "text" : "Προσοχή! Παιδιά"
+                                    }
+                    }
+}

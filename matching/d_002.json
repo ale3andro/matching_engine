@@ -1,0 +1,35 @@
+{
+    "metadata" : {
+                    "title" : "Αντιγραφή & επικόλλση - σειρά ενεργειών",
+                    "class" : "Δ",
+                    "answer" : "120"
+                },
+    "draggables" : {
+                    "draggable0" : {
+                                        "id" : "0", 
+                                        "img_src" : "matching/d_002/2.gif"
+                                    },
+                    "draggable1" : {
+                                        "id" : "1", 
+                                        "img_src" : "matching/d_002/0.gif"
+                                    },
+                    "draggable2" : {
+                                        "id" : "2", 
+                                        "img_src" : "matching/d_002/1.gif"
+                                    }
+                    },
+    "droppables" : {
+                    "droppable0" : {
+                                        "id" : "0", 
+                                        "text" : "0. Διπλό κλικ για επιλογή λέξης"
+                                    },
+                    "droppable1" : {
+                                        "id" : "1", 
+                                        "text" : "1. Δεξί κλικ στη λέξη και Αντιγραφή"
+                                    },
+                    "droppable2" : {
+                                        "id" : "2", 
+                                        "text" : "2. Δεξί κλικ και επικόλληση"
+                                    }
+                    }
+}

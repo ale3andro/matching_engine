@@ -44,7 +44,7 @@ img {
 
 /* index2.html */
 .alx_droppable { 
-  width: 130px; 
+  width: 200px; 
   height: 150px; 
   padding: 0.5em; 
   float: left; 
@@ -56,7 +56,7 @@ img {
 .alx_droppablespan { display: none;}
 
 .alx_draggable  {
-  width: 110px; 
+  width: 170px; 
   height: 120px; 
   line-height: 120px;
   text-align: center;

@@ -1,0 +1,51 @@
+{
+    "metadata" : {
+                    "title" : "Ώρες της ημέρας",
+                    "class" : "Β",
+                    "answer" : "24013"
+                },
+    "draggables" : {
+                    "draggable0" : {
+                                        "id" : "0", 
+                                        "img_src" : "matching/b_001/7.png"
+                                    },
+                    "draggable1" : {
+                                        "id" : "1", 
+                                        "img_src" : "matching/b_001/5.png"
+                                    },
+                    "draggable2" : {
+                                        "id" : "2", 
+                                        "img_src" : "matching/b_001/1.png"
+                                    },
+                    "draggable3" : {
+                                        "id" : "3", 
+                                        "img_src" : "matching/b_001/3.png"
+                                    },
+                    "draggable4" : {
+                                        "id" : "4", 
+                                        "img_src" : "matching/b_001/0.png"
+                                    }
+                    },
+    "droppables" : {
+                    "droppable0" : {
+                                        "id" : "0", 
+                                        "text" : "07:30"
+                                    },
+                    "droppable1" : {
+                                        "id" : "1", 
+                                        "text" : "08:00"
+                                    },
+                    "droppable2" : {
+                                        "id" : "2", 
+                                        "text" : "10:00"
+                                    },
+                    "droppable3" : {
+                                        "id" : "3", 
+                                        "text" : "18:00"
+                                    },
+                    "droppable4" : {
+                                        "id" : "4", 
+                                        "text" : "21:00"
+                                    }
+                    }
+}

@@ -1,69 +1,51 @@
 {
     "metadata" : {
-                    "title" : "Fuzz - 07",
+                    "title" : "Ολόκληρες και μισές ώρες - Μέρος 2",
                     "class" : "Α",
-                    "answer" : "right|down|right|up|left|up|right",
-                    "level_img" : "matching/levels/level_a7.png"
+                    "answer" : "20413"
                 },
     "draggables" : {
                     "draggable0" : {
-                                        "id" : "right0", 
-                                        "img_src" : "matching/arrows/right.png"
+                                        "id" : "0", 
+                                        "img_src" : "matching/a_007/t11.00.png"
                                     },
                     "draggable1" : {
-                                        "id" : "right1", 
-                                        "img_src" : "matching/arrows/right.png"
+                                        "id" : "1", 
+                                        "img_src" : "matching/a_007/t12.00.png"
                                     },
                     "draggable2" : {
-                                        "id" : "right2", 
-                                        "img_src" : "matching/arrows/right.png"
+                                        "id" : "2", 
+                                        "img_src" : "matching/a_007/t01.00.png"
                                     },
                     "draggable3" : {
-                                        "id" : "left0", 
-                                        "img_src" : "matching/arrows/left.png"
+                                        "id" : "3", 
+                                        "img_src" : "matching/a_007/t12.30.png"
                                     },
                     "draggable4" : {
-                                        "id" : "up0", 
-                                        "img_src" : "matching/arrows/up.png"
-                                    },
-                    "draggable5" : {
-                                        "id" : "up1", 
-                                        "img_src" : "matching/arrows/up.png"
-                                    },
-                    "draggable6" : {
-                                        "id" : "down0", 
-                                        "img_src" : "matching/arrows/down.png"
+                                        "id" : "4", 
+                                        "img_src" : "matching/a_007/t11.30.png"
                                     }
                     },
     "droppables" : {
                     "droppable0" : {
                                         "id" : "0", 
-                                        "text" : "1"
+                                        "text" : "Μία ακριβώς"
                                     },
                     "droppable1" : {
                                         "id" : "1", 
-                                        "text" : "2"
+                                        "text" : "Έντεκα ακριβώς"
                                     },
                     "droppable2" : {
                                         "id" : "2", 
-                                        "text" : "3"
+                                        "text" : "Έντεκα και μισή"
                                     },
                     "droppable3" : {
                                         "id" : "3", 
-                                        "text" : "4"
+                                        "text" : "Δώδεκα ακριβώς"
                                     },
                     "droppable4" : {
                                         "id" : "4", 
-                                        "text" : "5"
-                                    },
-                    "droppable5" : {
-                                        "id" : "5", 
-                                        "text" : "6"
-                                    },
-                    "droppable6" : {
-                                        "id" : "6", 
-                                        "text" : "7"
+                                        "text" : "Δώδεκα και μισή"
                                     }
-
                     }
 }

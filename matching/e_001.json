@@ -1,0 +1,51 @@
+{
+    "metadata" : {
+                    "title" : "Σύμβολα στην πληκτρολόγηση και συνδυασμοί πλήκτρων που τα εμφανίζουν",
+                    "class" : "Ε",
+                    "answer" : "14023"
+                },
+    "draggables" : {
+                    "draggable0" : {
+                                        "id" : "0", 
+                                        "img_src" : "matching/e_001/question.png"
+                                    },
+                    "draggable1" : {
+                                        "id" : "1", 
+                                        "img_src" : "matching/e_001/Q.png"
+                                    },
+                    "draggable2" : {
+                                        "id" : "2", 
+                                        "img_src" : "matching/e_001/dialytika.png"
+                                    },
+                    "draggable3" : {
+                                        "id" : "3", 
+                                        "img_src" : "matching/e_001/8aumastiko.png"
+                                    },
+                    "draggable4" : {
+                                        "id" : "4", 
+                                        "img_src" : "matching/e_001/shift+Q.png"
+                                    }
+                    },
+    "droppables" : {
+                    "droppable0" : {
+                                        "id" : "0", 
+                                        "text" : "Ελληνικό ερωτηματικό (;)"
+                                    },
+                    "droppable1" : {
+                                        "id" : "1", 
+                                        "text" : "Άνω και κάτω τελεία (:)"
+                                    },
+                    "droppable2" : {
+                                        "id" : "2", 
+                                        "text" : "Φωνήεν με τόνο"
+                                    },
+                    "droppable3" : {
+                                        "id" : "3", 
+                                        "text" : "Φωνήεν με διαλυτικά"
+                                    },
+                    "droppable4" : {
+                                        "id" : "4", 
+                                        "text" : "Θαυμαστικό"
+                                    }
+                    }
+}

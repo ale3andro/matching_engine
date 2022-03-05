@@ -1,69 +1,51 @@
 {
     "metadata" : {
-                    "title" : "Fuzz - 08",
+                    "title" : "Ολόκληρες ώρες",
                     "class" : "Α",
-                    "answer" : "right|down|right|down|right|up|right",
-                    "level_img" : "matching/levels/level_a8.png"
+                    "answer" : "42103"
                 },
     "draggables" : {
                     "draggable0" : {
-                                        "id" : "right0", 
-                                        "img_src" : "matching/arrows/right.png"
+                                        "id" : "0", 
+                                        "img_src" : "matching/a_008/t10.00.png"
                                     },
                     "draggable1" : {
-                                        "id" : "right1", 
-                                        "img_src" : "matching/arrows/right.png"
+                                        "id" : "1", 
+                                        "img_src" : "matching/a_008/t08.00.png"
                                     },
                     "draggable2" : {
-                                        "id" : "right2", 
-                                        "img_src" : "matching/arrows/right.png"
+                                        "id" : "2", 
+                                        "img_src" : "matching/a_008/t02.00.png"
                                     },
                     "draggable3" : {
-                                        "id" : "right3", 
-                                        "img_src" : "matching/arrows/right.png"
+                                        "id" : "3", 
+                                        "img_src" : "matching/a_008/t12.00.png"
                                     },
                     "draggable4" : {
-                                        "id" : "up0", 
-                                        "img_src" : "matching/arrows/up.png"
-                                    },
-                    "draggable5" : {
-                                        "id" : "down0", 
-                                        "img_src" : "matching/arrows/down.png"
-                                    },
-                    "draggable6" : {
-                                        "id" : "down1", 
-                                        "img_src" : "matching/arrows/down.png"
+                                        "id" : "4", 
+                                        "img_src" : "matching/a_008/t01.00.png"
                                     }
                     },
     "droppables" : {
                     "droppable0" : {
                                         "id" : "0", 
-                                        "text" : "1"
+                                        "text" : "Μία ακριβώς"
                                     },
                     "droppable1" : {
                                         "id" : "1", 
-                                        "text" : "2"
+                                        "text" : "Δύο ακριβώς"
                                     },
                     "droppable2" : {
                                         "id" : "2", 
-                                        "text" : "3"
+                                        "text" : "Οκτώ ακριβώς"
                                     },
                     "droppable3" : {
                                         "id" : "3", 
-                                        "text" : "4"
+                                        "text" : "Δέκα ακριβώς"
                                     },
                     "droppable4" : {
                                         "id" : "4", 
-                                        "text" : "5"
-                                    },
-                    "droppable5" : {
-                                        "id" : "5", 
-                                        "text" : "6"
-                                    },
-                    "droppable6" : {
-                                        "id" : "6", 
-                                        "text" : "7"
+                                        "text" : "Δώδεκα ακριβώς"
                                     }
-
                     }
 }

@@ -1,69 +1,51 @@
 {
     "metadata" : {
-                    "title" : "Fuzz - 04",
+                    "title" : "Αντιστοίχιση σχημάτων - Πριν τη ζωγραφική του χαρταετού",
                     "class" : "Α",
-                    "answer" : "right|up|left|up|right|down|right",
-                    "level_img" : "matching/levels/level_a4.png"
+                    "answer" : "12430"
                 },
     "draggables" : {
                     "draggable0" : {
-                                        "id" : "right0", 
-                                        "img_src" : "matching/arrows/right.png"
+                                        "id" : "0", 
+                                        "img_src" : "matching/a_004/romvos.png"
                                     },
                     "draggable1" : {
-                                        "id" : "right1", 
-                                        "img_src" : "matching/arrows/right.png"
+                                        "id" : "1", 
+                                        "img_src" : "matching/a_004/tetragwno.png"
                                     },
                     "draggable2" : {
-                                        "id" : "right2", 
-                                        "img_src" : "matching/arrows/right.png"
+                                        "id" : "2", 
+                                        "img_src" : "matching/a_004/trigwno.png"
                                     },
                     "draggable3" : {
-                                        "id" : "left0", 
-                                        "img_src" : "matching/arrows/left.png"
+                                        "id" : "3", 
+                                        "img_src" : "matching/a_004/pentagwno.png"
                                     },
                     "draggable4" : {
-                                        "id" : "up0", 
-                                        "img_src" : "matching/arrows/up.png"
-                                    },
-                    "draggable5" : {
-                                        "id" : "up1", 
-                                        "img_src" : "matching/arrows/up.png"
-                                    },
-                    "draggable6" : {
-                                        "id" : "down0", 
-                                        "img_src" : "matching/arrows/down.png"
+                                        "id" : "4", 
+                                        "img_src" : "matching/a_004/kyklos.png"
                                     }
                     },
     "droppables" : {
                     "droppable0" : {
                                         "id" : "0", 
-                                        "text" : "1"
+                                        "text" : "Τετράγωνο"
                                     },
                     "droppable1" : {
                                         "id" : "1", 
-                                        "text" : "2"
+                                        "text" : "Τρίγωνο"
                                     },
                     "droppable2" : {
                                         "id" : "2", 
-                                        "text" : "3"
+                                        "text" : "Κύκλος"
                                     },
                     "droppable3" : {
                                         "id" : "3", 
-                                        "text" : "4"
+                                        "text" : "Πεντάγωνο"
                                     },
                     "droppable4" : {
                                         "id" : "4", 
-                                        "text" : "5"
-                                    },
-                    "droppable5" : {
-                                        "id" : "5", 
-                                        "text" : "6"
-                                    },
-                    "droppable6" : {
-                                        "id" : "6", 
-                                        "text" : "7"
+                                        "text" : "Ρόμβος"
                                     }
-
                     }
 }
