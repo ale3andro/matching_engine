@@ -123,7 +123,13 @@ $( document ).ready(function() {
                     {
                         $("#alx_draggables").html('<img src="img/happy_winner.gif" />');
                         $("#alx_droppables").html("");
-                        $("#alx_button").html("");
+                        if (sessionStorage.getItem("quest_return")!=null) {
+                            $("#alx_button").html('<a href="' + sessionStorage.getItem("quest_return") + '">Επιστροφή στον χάρτη</a>');    
+                        }
+                        else {
+                            $("#alx_button").html("");
+                        }
+                        
                         
                         sessionStorage.setItem(getUrlParams('questId'), '1');
                     }
