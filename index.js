@@ -124,6 +124,7 @@ $( document ).ready(function() {
                         $("#alx_draggables").html('<img src="img/happy_winner.gif" />');
                         $("#alx_droppables").html("");
                         if (sessionStorage.getItem("quest_return")!=null) {
+                            sessionStorage.setItem("quest" + sessionStorage.getItem("quest_ordinal") + "_is_complete", 'true');
                             $("#alx_button").html('<a href="' + sessionStorage.getItem("quest_return") + '">Επιστροφή στον χάρτη</a>');    
                         }
                         else {
@@ -131,7 +132,7 @@ $( document ).ready(function() {
                         }
                         
                         
-                        sessionStorage.setItem(getUrlParams('questId'), '1');
+                        
                     }
                     else
                         alert('Δυστυχώς όχι... Δοκίμασε πάλι!');
