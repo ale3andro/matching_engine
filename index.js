@@ -125,14 +125,11 @@ $( document ).ready(function() {
                         $("#alx_droppables").html("");
                         if (sessionStorage.getItem("quest_return")!=null) {
                             sessionStorage.setItem("quest" + sessionStorage.getItem("quest_ordinal") + "_is_complete", 'true');
-                            $("#alx_button").html('<a href="' + sessionStorage.getItem("quest_return") + '">Επιστροφή στον χάρτη</a>');    
+                            $("#alx_button").html('<a href="' + sessionStorage.getItem("quest_return") + '"><img src="img/back_66percent.png""></a>');    
                         }
                         else {
                             $("#alx_button").html("");
-                        }
-                        
-                        
-                        
+                        }                      
                     }
                     else
                         alert('Δυστυχώς όχι... Δοκίμασε πάλι!');
